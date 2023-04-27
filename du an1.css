@@ -1,0 +1,109 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner {
+    border: 1px rgb(14, 128, 235) (141, 24, 24) groove;
+    margin: 40px 40px 20px 60px;
+    text-align: center;
+    background-color: rgb(177, 154, 154);
+    width: 97%;
+    margin: 0px auto;
+}
+.name_banner{
+    font-size: 50px;
+    color: rgb(20, 33, 94);
+    font-weight: bold;
+    width: 98%;
+    
+}
+.h1 {
+    color: rgb(243, 235, 235);
+    background-color: rgb(5, 5, 5);
+    border-radius: 7%;
+    border: 1px dashed rgb(16, 16, 15);
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 20px 15px 20px 15px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li a{
+    text-decoration: none;
+    color: rgb(231, 119, 15);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web {
+    width: 97%;
+    height: 50px;
+    background-color:aliceblue(98, 0, 255);
+    margin: 0 auto;
+}
+.menu {
+    font-size: 20px;
+}
+.root>li>a:hover{background-color: rgb(50, 112, 205);
+    color: rgb(71, 14, 77);
+    transform: ease-in 0.35s;
+}
+.submenu{
+    width: 250px;
+    background-color: #d3830b;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li {list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover .submenu {
+    display: block;
+    background-color:rgb(15, 15, 16);
+    color: rgb(112, 216, 190);
+    transform: ease-in 0.35s;
+}
+.submenu li a:hover {
+    background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+.bocuc{
+    border: 1px solid #ccc;
+    width: 97%;margin: 0px auto;
+
+}
+.h11 td{border: 1px solid #ccc;}
+.sp1 img{width: 300px; height: 180px;
+    align-items: center;}
+    .giacu{color: red; font-size: 18px;}
+    .giaban{color: blue;
+    font-size: 14px; font-weight: bold;}
+    .sp1{text-align: center;}
+    .giaban:hover{font-size: 25px;
+    position: absolute;
+    transform: ease-in 0.35s;}
+    .sp1 img:hover{width: 90px;height: 80px;
+    position: absolute;}
+
+
